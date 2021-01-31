@@ -631,7 +631,7 @@ const selectList=()=>{
             // const classes="."+currentSelectedList.replaceAll(/\s/g,'.');
             // console.log(classes)
             // document.getElementsByClassName(classes).classList.add("Bro")
-            storeInLocalStorage();         
+                     
             getCurentListData();
             
             
@@ -652,10 +652,10 @@ function validate(value) {
 }
 
 
-$(window).bind("beforeunload", function(){
+// $(window).bind("beforeunload", function(){
     
-    storeInLocalStorage();
-});
+//     storeInLocalStorage();
+// });
 
 
 
